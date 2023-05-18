@@ -28,7 +28,7 @@ export default function CustomizedProgressBars() {
 		<Box sx={{ flexGrow: 1, marginTop: 3 }}>
 			<BorderLinearProgress
 				variant="determinate"
-				value={progress ? progress : 10}
+				value={progress ? progress : 20}
 			/>
 			<h2
 				style={{
